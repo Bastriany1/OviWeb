@@ -5,6 +5,11 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!--Incluir Loader CSS
+		Propiedad: https://ihatetomatoes.net/create-custom-preloading-screen/
+		-->
+		<link rel="stylesheet" href="css/main.css">
 		<title>DISEÑO DE SITIOS WEB | Fase de Construcción</title>
 		<script type="text/javascript" src="js/funciones.js"></script>	
 	</head>
@@ -17,6 +22,12 @@ article{
 	padding: 2px;
 	margin-right: 5px;
 }
+
+.navbar-fixed-bottom, .navbar-fixed-top {
+    z-index: 100 !important;
+}
+
+
 </style>
 	<body>
 		<div class="container"> 
@@ -24,7 +35,7 @@ article{
 			<section class="well topmargin">
 				<div class="row">
 					<div class="col-xs-2">
-						<img src="http://placehold.it/80x80" class="img-thumbnail">
+						<img src="/assets/logoUNAD.png" width="300">
 					</div> 
 
 					<div class="col-xs-10">
@@ -37,6 +48,12 @@ article{
 			<header class="well">
 				navegacion
 			</header>	
+
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+				<div class="loader-section section-left"></div>
+				<div class="loader-section section-right"></div>
+			</div>
 
 			<section class="well">
 				<div class="row">
@@ -111,8 +128,8 @@ article{
 		<footer class="navbar navbar-fixed-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-4">
-						LOGOTIPOI
+					<div class="col-sm-4 topmargin">
+						<img src="/assets/logoUNADgrisInferior.png" width="200">
 					</div>
 
 					<div class="col-sm-4">
@@ -125,6 +142,12 @@ article{
 				</div>
 			</div>
 		</footer>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+		<!-- Incluir Loader JS 
+		Propiedad: https://ihatetomatoes.net/create-custom-preloading-screen/
+		-->
+		<script src="js/main.js"></script>
 
 	</body> 
 </html>
