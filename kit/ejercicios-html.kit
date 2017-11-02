@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- @import "html-head.kit" -->
+	</head>
+
+	<body>
+		<div class="container"> 
+
+			<section class="well topmargin">
+				<div class="row">
+					<div class="col-xs-2">
+						<!-- @import "logotipo.kit" -->
+					</div> 
+
+					<div class="col-xs-10">
+						<span class="pull-right">
+							<h3 class="titulo">EJERCICIOS HTML</h3>	
+						</span>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- @import "html-header.kit" -->
+
+			<!-- @import "buscador.kit" -->
+
+			<section class="main topmargin">
+				<div class="row">
+
+					<div class="container">
+
+						<ul class="tabs">
+							<li class="tab-link current" data-tab="tab-1">Ejercicio No.1</li>
+							<li class="tab-link" data-tab="tab-2">Ejercicio No.2</li>
+						</ul>
+
+						<div id="tab-1" class="tab-content current">
+
+							<h4>Ejercicio de HTML - Listas de enlaces</h4>
+							<p>
+								De acuerdo con la siguiente estructura de listas anidadas (fíjese que hay dos listas dentro de otra) asegurese d e responder cada uno de los interrogantes posteriores:
+							</p>
+
+							<pre>    
+							    &lt;ul&gt;
+							      &lt;li&gt;Buscadores
+							        <span class="codres">&lt;ul&gt;
+							          &lt;li&gt;...&lt;/li&gt;
+							          &lt;li&gt;...&lt;/li&gt;
+							        &lt;/ul&gt;</span>
+							      &lt;/li&gt;
+							      &lt;li&gt;Redes sociales
+							        <span class="codres">&lt;ul&gt;
+							          &lt;li&gt;...&lt;/li&gt;
+							          &lt;li&gt;...&lt;/li&gt;
+							        &lt;/ul&gt;</span>
+							      &lt;/li&gt;
+							    &lt;/ul&gt;
+							</pre>
+
+							<p>
+								Realice el ejercicio en una hoja en <strong>Sublime Text</strong> al culminar cada item debe ser un nombre de una red social al hacer clic sobre los enlaces "Bing", "Google", "Facebook" y "Twitter", se accederá en nuevas pestañas a las direcciones web siguientes:
+
+								<ul>
+									<li>http://www.bing.com/</li>
+									<li>http://www.google.com/</li>
+									<li>http://www.facebook.com/</li>
+									<li>http://www.twitter.com/</li>
+								</ul>
+
+								Además, hay que tener en cuenta las siguientes consideraciones:
+
+								<ul>
+									<li>El texto de los enlaces no visitados –en este caso "Facebook" y "Twitter"– debe mostrarse de color rojo (color:red;), y estar subrayado (la opción por defecto del navegador).</li>
+									<li>Al pasar el puntero del ratón por encima del texto de un enlace que todavía no se haya visitado, el color cambiará de rojo a verde (color:green;) y no se mostrará subrayado (text-decoration:none;). En la imagen es el caso del enlace a "Google".</li>
+									<li>El texto de un enlace a un sitio web ya visitado se mostrará de color púrpura (color:purple;), como es el caso del enlace a "Bing".</li>
+									<li>El texto de un enlace activo debe ser de color lima (color:lime;). </li>
+								</ul>
+							</p>
+
+							<a href="http://www.abrirllave.com/html/ejercicio-listas-de-enlaces.php" class="btn btn-info">Bibliografia</a>
+						</div>
+
+						<div id="tab-2" class="tab-content ">
+
+							<h4>Ejercicio de HTML - Grupo de música (Queen)</h4>
+							<p>
+								
+								Dada la siguiente estructura de archivos y carpetas:
+								<ul>
+									<li><code>C:/html/grupos-de-musica/queen.html</code></li>
+									<li><code>C:/html/grupos-de-musica/estilos.css</code></li>
+									<li><code>C:/html/grupos-de-musica/imagenes/queen.jpg</code></li>
+								</ul>
+
+								Al ver el archivo "queen.html" en un navegador web, se verá algo similar a:
+							</p>
+
+								<center><img src="../assets/grupo-de-musica-queen-chrome.gif" class="img-thumbnail"></center>
+							
+							<p>
+								Escribir el código de los archivos "queen.html" y "estilos.css", teniendo en cuenta las siguientes indicaciones:
+
+								<ul>
+									<li>Todos los estilos están especificados en el archivo "estilos.css".</li>
+									<li>El tipo de letra utilizado en todo el documento es Verdana.</li>
+									<li>El tamaño de la imagen es 400 x 200 píxeles.</li>
+									<li>El borde de la tabla es de 1px y color negro.</li>
+									<li>El espacio entre en contenido de las celdas de la tabla y su borde es 10px.</li>
+									<li>El enlace al sitio web oficial de Queen debe abrirse en una pestaña nueva.</li>
+								</ul>
+							</p>
+
+							<p>
+								En la tabla siguiente se indican colores y tamaños de diferentes elementos mostrados en la página web:
+								<table class="table table-bordered">
+							      <thead>
+							        <tr class="success">
+							          <th>Elementos</th>
+							          <th>Color del texto</th>
+							          <th>Tamaño</th>
+							        </tr>
+							      </thead>
+							      <tbody>
+							        <tr>
+							          <td>Cabecera h1</td>
+							          <td>#333</td>
+							          <td>20px</td>
+							        </tr>
+							        <tr>
+							          <td>Cabeceras h2</td>
+							          <td>#666</td>
+							          <td>16px</td>
+							        </tr>
+							        <tr>
+							          <td>Celdas cabecera de la tabla</td>
+							          <td>white</td>
+							          <td>12px</td>
+							        </tr>
+							        <tr>
+							          <td>Enlace</td>
+							          <td>blue</td>
+							          <td>12px</td>
+							        </tr>
+							        <tr>
+							          <td>Párrafo.<br>Elementos de la lista.<br>Datos del cuerpo y pie de la tabla.</td>
+							          <td>#000</td>
+							          <td>12px</td>
+							        </tr>
+							        <tr>
+							          <td>Título de la tabla</td>
+							          <td>#000</td>
+							          <td>14px</td>
+							        </tr>
+							      </tbody>
+							    </table>
+							</p>
+
+							<p>
+								Los colores de fondo de la tabla son:
+								<table class="table table-bordered">
+							      <thead>
+							        <tr class="success">
+							          <th>Partes de la tabla</th>
+							          <th>Color de fondo</th>
+							        </tr>
+							      </thead>
+							      <tbody>
+							        <tr>
+							          <td>Cabecera de la tabla</td>
+							          <td>#666</td>
+							        </tr>
+							        <tr>
+							          <td>Cuerpo de la tabla</td>
+							          <td>#fff</td>
+							        </tr>
+							        <tr>
+							          <td>Pie de la tabla</td>
+							          <td>#ccc</td>
+							        </tr>
+							      </tbody>
+							    </table>
+							</p>
+
+							<p>
+								Los colores de fondo de la tabla son:
+								<table class="table table-bordered">
+							      <thead>
+							        <tr class="success">
+							          <th>Partes de la tabla</th>
+							          <th>Color de fondo</th>
+							        </tr>
+							      </thead>
+							      <tbody>
+							        <tr>
+							          <td>Cabecera de la tabla</td>
+							          <td>#666</td>
+							        </tr>
+							        <tr>
+							          <td>Cuerpo de la tabla</td>
+							          <td>#fff</td>
+							        </tr>
+							        <tr>
+							          <td>Pie de la tabla</td>
+							          <td>#ccc</td>
+							        </tr>
+							      </tbody>
+							    </table>
+							</p>
+							<a href="http://www.abrirllave.com/html/ejercicio-grupo-de-musica-queen.php" class="btn btn-info">Bibliografia</a>
+						</div>
+					</div><!-- container -->
+
+				</div>
+			</section>
+
+		</div>
+
+		<!-- @import "html-footer.kit" -->
+
+	</body> 
+
+</html>

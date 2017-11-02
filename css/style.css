@@ -2,9 +2,9 @@
 	Nombre: DISEÑOS DE SITIOS WEB | Fase de Construcción
 	URI: 
 	Descripcion: Unidad 1 y 2: Fase de Construcción - Crear un OVI en formato WEB con HTML5 y CSS3.
-	Autores: Jhonattan Guillermo Rodriguez Rojas - 
+	Autores: Jhonattan Guillermo Rodriguez Rojas
 -----------------------------------------------------------------------------------*/
-body { padding-bottom: 20%; }
+body { padding-bottom: 5%; }
 
 .topmargin{
 	margin-top: 3%;
@@ -82,6 +82,28 @@ article{
     z-index: 100 !important;
 }
 
+.item {
+    position:relative;
+    padding-top:20px;
+    display:inline-block;
+}
+.notify-badge{
+    position: absolute;
+    right:-5px;
+    top:10px;
+    background:#f26722;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    color:white;
+    padding:5px 10px;
+    font-size:15px;
+}
+
+.codres {
+    color: #000;
+    font-weight: bold;
+}
+
 
 
 /*-----------------------------------------------------------------------------------
@@ -92,7 +114,7 @@ article{
 -----------------------------------------------------------------------------------*/
 
 
-ul {
+header ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -100,7 +122,7 @@ ul {
   background: #004766;
 }
 
-ul li {
+header ul li {
   display: block;
   position: relative;
   float: left;
@@ -118,7 +140,7 @@ ul li a {
   color: #fff;
 }
 
-ul li a:hover { 
+header ul li a:hover { 
     background: #e9b03c; 
     color: #333;
     text-decoration: none;
@@ -141,6 +163,13 @@ li:hover li a:hover {
     background: #2c3e50; 
     color: #fff;
 }
+
+/*-----------------------------------------------------------------------------------
+    Nombre: Heading Set Styling with CSS
+    URI: https://tympanus.net/codrops/2012/11/02/heading-set-styling-with-css/
+    Descripcion: Menu multinivel con CSS
+    Autores: https://codepen.io/twodogstar/
+-----------------------------------------------------------------------------------*/
 
 .main-navigation li ul li { border-top: 0; }
 
@@ -176,7 +205,7 @@ ul:after { clear: both; }
 
 .main h2:after { background: #0AF; }
 .main h3:after { background: #3BF; }
-.main h4:after { background: #6Cf; }
+.main h4:after { background: #f26722; }
 
 .main h1 {
   font-size: 36px;
@@ -219,11 +248,46 @@ ul:after { clear: both; }
   margin: 1em 0 .6em 0;
   padding: 0 0 0 20px;
   font-weight: normal;
-  color: white;
+  color: #004766;
   font-family: 'Hammersmith One', sans-serif;
   text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
   position: relative;
   font-size: 18px;
   line-height: 20px;
   font-family: 'Questrial', sans-serif;
+}
+
+/*-----------------------------------------------------------------------------------
+    Nombre: Incluir Tabbed Content with jQuery and CSS
+    URI: https://codepen.io/cssjockey/pen/jGzuK
+    Descripcion: Contenido seccionado en Tbas simples
+    Autores: Mohit Aneja
+-----------------------------------------------------------------------------------*/
+
+ul.tabs{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul.tabs li{
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+ul.tabs li.current{
+  background: #ededed;
+  color: #222;
+}
+
+.tab-content{
+  display: none;
+  background: #ededed;
+  padding: 15px;
+}
+
+.tab-content.current{
+  display: inherit;
 }
