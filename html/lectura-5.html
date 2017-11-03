@@ -27,7 +27,7 @@ Propiedad: https://ihatetomatoes.net/create-custom-preloading-screen/
 
 					<div class="col-xs-10">
 						<span class="pull-right">
-							<h3 class="titulo">EJERCICIOS MySQL</h3>	
+							<h3 class="titulo">PHP : PDO</h3>	
 						</span>
 					</div>
 
@@ -89,76 +89,40 @@ Propiedad: https://ihatetomatoes.net/create-custom-preloading-screen/
 			<section class="topmargin">
 				<div class="row">
 
-					<div class="container">
+					<div class="main container">
 
 						<ul class="tabs">
-							<li class="tab-link current" data-tab="tab-1">Ejercicio No.1</li>
-							<li class="tab-link" data-tab="tab-2">Ejercicio No.2</li>
+							<li class="tab-link current" data-tab="tab-1">Intro</li>
+							<li class="tab-link" data-tab="tab-4">Bibliografia</li>
+
 						</ul>
 
 						<div id="tab-1" class="tab-content current">
-							<p align="justify">
-								Diseñe un programa para conectarse a MySQL y cree una base de datos con el nombre DIRECTORIO.Incluya una tabla que se denomine CLIENTES con los campos siguientes:
+
+							<h4>Introducción</h4>
+
+							<p align="justify">Las siglas PDO (PHP Data Objects) hacen referencia a una interfaz de PHP que nos permite acceder a bases de datos de cualquier tipo en PHP.</p>
+
+							<p align="justify">Cada controlador de bases de datos que implemente la interfaz PDO puede exponer características específicas de la base de datos, como las funciones habituales de la extensión. Obsérvese que no se puede realizar ninguna de las funciones de la bases de datos utilizando la extensión PDO por sí misma; se debe utilizar un controlador de PDO específico de la base de datos para tener acceso a un servidor de bases de datos.</p>
+
+							<center><img src="../assets/Pdo.png" class="https://getbootstrap.com/docs/3.3/css/#images"></center>
+
+							<p align="justify">PDO proporciona una capa de abstracción de acceso a datos, lo que significa que, independientemente de la base de datos que se esté utilizando, se usan las mismas funciones para realizar consultas y obtener datos. Para saber los controladores PDO disponibles en nuestro sistema:
 							</p>
 
-							<table class="table table-bordered">
-								<tbody>
-								<tr class="success">
-								<th colspan="2">Tabla de clientes</th>
-								</tr>
-								<tr class="warning">
-								<td align="center"><strong>Nombre campo</strong></td>
-								<td align="center"><strong>Tipo campo</strong></td>
-								</tr>
-								<tr>
-								<td align="center">id_cliente</td>
-								<td align="center">Numérico entero</td>
-								</tr>
-								<tr>
-								<td align="center">nombre</td>
-								<td align="center">Texto</td>
-								</tr>
-								<tr>
-								<td align="center">apellidos</td>
-								<td align="center">Texto</td>
-								</tr>
-								<tr>
-								<td align="center">direccion</td>
-								<td align="center">Texto</td>
-								</tr>
-								<tr>
-								<td align="center">poblacion</td>
-								<td align="center">Texto</td>
-								</tr>
-								<tr>
-								<td align="center">codigopostal</td>
-								<td align="center">Texto</td>
-								</tr>
-								<tr>
-								<td align="center">telefono</td>
-								<td align="center">Numérico entero</td>
-								</tr>
-								<tr>
-								<td align="center">email</td>
-								<td align="center">Texto</td>
-								</tr>
-								</tbody>
-							</table>
-
-							<a href="https://apuntesdephp.wordpress.com/ejercicios-practicos/" class="btn btn-info">Bibliografia</a>
+							<pre>print_r(PDO::getAvailableDrivers());</pre>
 
 						</div>
 
-						<div id="tab-2" class="tab-content ">
+						<div id="tab-4" class="tab-content ">
+							<h4>Bibliografia</h4>
 
-							<ol>
-								<li>Elabore el código necesario para insertar datos a través de un formulario, en la tabla anterior. </li>
-								<li>Después intente elaborar un programa que le liste todos los datos en una tabla HTML.</li>
-								<li>Por último diseñe otro que pueda seleccionar la opción de búsqueda por el primer apellido o por el teléfono.</li>
-							</ol>
-							
-							<a href="https://apuntesdephp.wordpress.com/ejercicios-practicos/" class="btn btn-info">Bibliografia</a>
-							
+							<p align="justify">
+								<ol>
+									<li>Manuais.iessanclemente.net. (2017). Acceso a bases de datos con PDO - Manuais Informática - IES San Clemente.. [online] Available at: https://manuais.iessanclemente.net/index.php/Acceso_a_bases_de_datos_con_PDO [Accessed 3 Nov. 2017].</li>
+								</ol>
+							</p>
+
 						</div>
 
 
