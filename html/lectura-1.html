@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+
+
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+<!--Incluir Loader CSS
+Propiedad: https://ihatetomatoes.net/create-custom-preloading-screen/
+-->
+<link rel="stylesheet" href="../css/main.css">
+<title>DISEÑO DE SITIOS WEB | Fase de Construcción</title>
+<script type="text/javascript" src="../js/funciones.js"></script>
+	</head>
+
+	<body>
+		<div class="container"> 
+
+			<section class="well topmargin">
+				<div class="row">
+					<div class="col-xs-2">
+						<div>
+	<a href="/"><img src="../assets/logoUNAD.png" width="300"></a>
+</div>
+					</div> 
+
+					<div class="col-xs-10">
+						<span class="pull-right">
+							<h3 class="titulo">Introducción a HTML</h3>	
+						</span>
+					</div>
+
+				</div>
+			</section>
+
+			<h5>Vistas: <img style="border: 0px solid; display: inline;" width="50" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=242247"></h5>
+<header>
+	<ul>
+		<li><a href="/"> <i class="glyphicon glyphicon-home"></i> INICIO</a></li>
+
+		<li><a href="#"> <i class="glyphicon glyphicon-book"></i> LECTURAS</a>
+		    <ul>
+		      <li><a href="lectura-1.html"> <i class="glyphicon glyphicon-chevron-right"></i> Lectura 1</a></li>
+		      <li><a href="lectura-2.html"> <i class="glyphicon glyphicon-chevron-right"></i> Lectura 2</a></li>
+		      <li><a href="lectura-3.html"> <i class="glyphicon glyphicon-chevron-right"></i> Lectura 3</a></li>
+		      <li><a href="lectura-4.html"> <i class="glyphicon glyphicon-chevron-right"></i> Lectura 4</a></li>
+		      <li><a href="lectura-5.html"> <i class="glyphicon glyphicon-chevron-right"></i> Lectura 5</a></li>
+		    </ul>
+		</li>
+
+		<li><a href="#"> <i class="glyphicon glyphicon-film"></i> MULTIMEDIA</a>
+			<ul>
+			  <li><a href="material-1.html"> <i class="glyphicon glyphicon-chevron-right"></i> Material 1</a></li>
+			  <li><a href="material-2.html"> <i class="glyphicon glyphicon-chevron-right"></i> Material 2</a></li>
+			</ul>
+		</li>
+
+		<li><a href="#"> <i class="glyphicon glyphicon-ok"></i> ACTIVIDADES</a>
+			<ul>
+			  <li><a href="ejercicios-html.html"> <i class="glyphicon glyphicon-chevron-right"></i> Ejercicios HTML</a></li>
+			  <li><a href="ejercicios-php.html"> <i class="glyphicon glyphicon-chevron-right"></i> Ejercicio PHP</a></li>
+			  <li><a href="ejercicios-mysql.html"> <i class="glyphicon glyphicon-chevron-right"></i> Ejercicio MySQL</a></li>
+			</ul>
+		</li>
+
+		<li><a href="autores.html"> <i class="glyphicon glyphicon-user"></i> AUTORES</a></li>
+	</ul>
+</header>
+
+
+			<section>
+	<div class="row">
+		<div class="col-xs-12 ">
+
+            <div id="buscador">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="Buscar" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+
+		</div>
+	</div>
+</section>
+
+			<section class="topmargin">
+				<div class="row">
+
+					<div class="main container">
+
+						<ul class="tabs">
+							<li class="tab-link current" data-tab="tab-1">Intro</li>
+							<li class="tab-link" data-tab="tab-2">¿Que es HTML?</li>
+							<li class="tab-link" data-tab="tab-3">Atributos</li>
+							<li class="tab-link" data-tab="tab-4">Bibliografia</li>
+
+						</ul>
+
+						<div id="tab-1" class="tab-content current">
+
+							<h4>Introducción</h4>
+
+							<p align="justify">
+								En su corazón, HTML es un lenguaje muy sencillo compuesto de elementos, que pueden ser aplicados a piezas de texto para darles un significado diferente en un documento (¿Esto es un párrafo? ¿Esto es una lista con viñetas? ¿Esto es parte de una tabla?), estructura un documento en secciones lógicas (¿Tiene una cabecera? ¿Tres columnas de contenido? ¿Un menú de navegación?) e incrusta contenido como imágenes y vídeos en una página. Este módulo introducirá los dos primeros de estos, e introduce conceptos fundamentales y la sintaxis que necesitas para entender HTML.
+							</p>
+
+							<h4>Requisitos previos</h4>
+
+							<p align="justify">
+								Antes de empezar este módulo, no necesitas conocimientos previos de HTML, pero deberías estar, al menos, familiarizado con el uso básico de computadoras, y usar la Web pasivamente (i.e. sólo revisándolo, consumiendo el contenido). Deberías tener un entorno de trabajo básico establecido como se detalla en Instalando software básico, y entender cómo crear y gestionar archivos, como se detalla en Tratando con archivos — ambas son partes de nuestro módulo para principiantes Primeros pasos en la e.
+							</p>
+
+						</div>
+
+						<div id="tab-2" class="tab-content ">
+
+							<h4>¿Que es HTML?</h4>
+
+							<p align="justify">
+								<strong>HTML (HyperText Markup Language)</strong> no es un lenguaje de programación, es un lenguaje de marcado, usado para decirle a tu navegador cómo estructurar la páginas que visitas. Puede ser tan complejo o tan simple como desee el desarollador web. HTML consiste en una serie de  elementos, que puedes utilizar para encerrar, envolver, o marcar partes diferentes del contenido para hacer que aparezcan de una cierta manera, o actuen de determinada forma. Las etiquetas que envuelven un trozo de contenido pueden hacer que dicho contenido, enlace con otra página, ponga una palabra en cursiva, etcétera. Por ejemplo, dado la siguiente línea de contenido:
+							</p>
+
+							<pre>My cat is very grumpy</pre>
+
+							<p align="justify">
+								Si queremos que la línea sea independiente de otras, podemos especificar que es un párrafo encerrandola con una etiqueta de elemento de párrafo p
+							</p>
+
+							<pre>&lt;p&gt;My cat is very grumpy&lt;/p&gt;</pre>
+
+							<p align="justify">
+								Sin embargo, debes asegurarte de que los elementos estén apropiadamente anidados: en el ejemplo anterior primero abrimos el elemento p, luego el elemento strong, por lo tanto, debemos cerrar primero el elemento strong, y luego el p. Lo siguiente es incorrecto:
+							</p>
+
+							<pre>&lt;p&gt;Mi gato es &lt;strong&gt;muy gruñon.&lt;/p&gt;&lt;/strong&gt;&lt;/p&gt;</pre>
+
+							<h4>Elementos de bloque contra elementos en línea</h4>
+
+							<p align="justify">
+								Hay dos importantes categorías de elementos en HTML, las cuales deberías conocer — elementos a nivel de bloque y elementos en línea.
+							</p>
+
+							<ol>
+								<li>Los elementos a nivel de bloque forman un bloque visible en una página — aparecerán en una nueva línea de cualquier contenido que haya venido antes, y cualquier contenido que venga después también aparecerá en una nueva línea. Los elementos a nivel de bloque tienden a ser elementos estructurales en la página que representan por ejemplo párrafos, listas, menús de navegación, pies de página, etc. Un elemento a nivel de bloque no estaría anidado dentro de un elemento en en línea, pero podría estar anidado dentro de otro elemento a nivel de bloque.</li>
+
+								<li>Los elementos en línea son quellos que están contenidos dentro de elementos a nivel de bloque y rodean solo pequeñas partes del contenido del documento, no párrafos enteros ni agrupaciones de contenido. Un elemento en línea  no causará que una nueva línea aparezca en el documento: normalmente aparecen dentro de un párrefo o texto, por ejemplo un elemento&lt;a&gt;  (hipervículo) o elementos de énfasis como &lt;em&gt; o &lt;strong&gt;.</li>
+							</ol>
+
+							<h4>Elementos vacíos</h4>
+
+							<p align="justify">
+								No todos los elementos siguen el patrón de arriba de etiqueta de apertura, contenido, etiqueta de cierre. Algunos elementos consisten solo en una etiqueta única, la cual es usualmente usada para insertar/incustrar algo en el documento en el lugar donde es incluida. Por ejemplo, el elemento <img> inserta una imagen en la página en la posición donde es incluida:
+							</p>
+
+							<pre>&lt;img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png"&gt;</pre>
+
+							
+						</div>
+
+						<div id="tab-3" class="tab-content ">
+							<h4>Atributos</h4>
+
+							<p align="justify">
+								Los elementos pueden también tener atributos, los cuales lucen así:
+							</p>
+
+							<center><img src="../assets/grumpy-cat-attribute-small.png" class="img-thumbnail"></center>
+
+							<p align="justify">
+								Los atributos contienen información extra sobre el elemento la cual no quieres que aparezca en el contenido actual. En este caso, el atributo class te permite dar al elemento un nombre identificador que puede ser despues usado para etiquetar al elemento con información de estilo y otras cosas. Un atributo debería tener:
+							</p>
+
+							<ul>
+								<li>Un espacio entre él y el nombre del elemento (o atributo previo, si el elemento ya tiene uno o más atributos.)</li>
+								<li>El nombre del atributo, seguido por un signo igual.</li>
+								<li>Un valor del atributo, con comillas de apertura y cierre alrededor de él.</li>
+							</ul>
+
+							<h4>Aprendizaje activo: Añadiendo atributos a un elemnto</h4>
+
+							<p align="justify">
+								Otro ejemplo de un elemento es &lt;a&gt; — esto significa ancla, y hará la parte del texto envuelto dentro de él en un hipervínculo.  Este puede tener una serie de atributos, pero varios son los sigiuentes:
+							</p>
+
+							<ol>
+								<li>href: Este atributo especifica como su valor la dirección web que quieres que el enlace apuente; donde el navegador navega cuando el enlace es dado clic. Por ejemplo, href="https://www.mozilla.org/".</li>
+								<li>title: El atributo title especifica información extra sobre el enlace, como que página es la que estás enlazando. Por ejemplo, title="La página de inicio de Mozilla". Esto aparecera como información cuando se pase el ratón por encima.</li>
+								<li>target: El atributo target especifica el contexto de navegación que será usado para mostrar el enlace. Por ejemplo, target="_blank" mostrará el enlace en una nueva pestaña. Si quieres mostrar el enlace en la pestaña actual solo omite este atributo.</li>
+							</ol>
+
+						</div>
+
+						<div id="tab-4" class="tab-content ">
+							<h4>Bibliografia</h4>
+
+							<p align="justify">
+								<ol>
+									<li>Mozilla Developer Network. (2017). Iniciando en HTML. [online] Available at: https://developer.mozilla.org/es/docs/Learn/HTML/Introduccion_a_HTML/iniciar [Accessed 3 Nov. 2017].</li>
+								</ol>
+							</p>
+
+						</div>
+
+
+					</div><!-- container -->
+
+				</div>
+			</section>
+
+		</div>
+
+		<div id="loader-wrapper">
+	<div id="loader"></div>
+	<div class="loader-section section-left"></div>
+	<div class="loader-section section-right"></div>
+</div>
+<footer class="navbar navbar-fixed-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4" style="margin-top: 8px;">
+				<img src="https://jgrodriguezr.github.io/OviWeb/assets/logoUNADgrisInferior.png" width="200">
+			</div>
+
+			<div class="col-sm-4">
+				RECURSOS
+			</div>
+
+			<div class="col-sm-4">
+				REFERENCIAS
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+<script src="../js/jquery1-9-2.js"></script>
+<!-- Incluir Loader JS 
+Propiedad: https://ihatetomatoes.net/create-custom-preloading-screen/
+-->
+<script src="../js/main.js"></script>
+
+
+<!-- Incluir Tabbed Content with jQuery and CSS
+Propiedad: https://codepen.io/cssjockey/pen/jGzuK
+-->
+<script type="text/javascript">
+	$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script>
+
+
+
+
+	</body> 
+
+</html>

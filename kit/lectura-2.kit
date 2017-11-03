@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- @import "html-head.kit" -->
+	</head>
+
+	<body>
+		<div class="container"> 
+
+			<section class="well topmargin">
+				<div class="row">
+					<div class="col-xs-2">
+						<!-- @import "html-logotipo.kit" -->
+					</div> 
+
+					<div class="col-xs-10">
+						<span class="pull-right">
+							<h3 class="titulo">Introducción a PHP</h3>	
+						</span>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- @import "html-header.kit" -->
+
+			<!-- @import "buscador.kit" -->
+
+			<section class="topmargin">
+				<div class="row">
+
+					<div class="main container">
+
+						<ul class="tabs">
+							<li class="tab-link current" data-tab="tab-1">Intro</li>
+							<li class="tab-link" data-tab="tab-2">Consideraciones</li>
+							<li class="tab-link" data-tab="tab-4">Bibliografia</li>
+
+						</ul>
+
+						<div id="tab-1" class="tab-content current">
+
+							<h4>Introducción</h4>
+
+							<p align="justify">
+								PHP es un potente lenguaje, y su intérprete, bien como módulo del servidor web o bien como binario CGI, puede acceder a ficheros, ejecutar comandos o abrir conexiones de red desde el servidor. Estas propiedades hacen que, por omisión, sea inseguro todo lo que se ejecute en un servidor web. PHP está diseñado específicamente para ser un lenguaje más seguro para escribir aplicaciones CGI que Perl o C. Partiendo de un correcto ajuste de opciones de configuración para tiempo de ejecución y en tiempo de compilación, y el uso de prácticas de programación apropiadas, pueden proporcionarle la combinación de libertad y de seguridad que necesita.
+							</p>
+
+							<p align="justify">
+								Dado que hay muchas vías para ejecutar PHP, existen muchas opciones de configuración para controlar su comportamiento. Al haber una extensa selección de opciones se garantiza poder usar PHP para un gran número de propósitos, pero a la vez significa que existen combinaciones que conllevan una configuración menos segura.
+							</p>
+
+							<p align="justify">
+								La flexibilidad de configuración de PHP rivaliza igualmente con la flexibilidad de su código. PHP puede ser usado para construir completas aplicaciones de servidor, con toda la potencia de un usuario de consola, o se puede usar sólo desde el lado del servidor implicando un menor riesgo dentro de un entorno controlado. El cómo construir ese entorno, y cómo de seguro es, depende del desarrollador PHP.
+							</p>
+
+							<p align="justify">
+								Este capítulo comienza con algunos consejos generales de seguridad, explica las diferentes combinaciones de opciones de configuración y las situaciones en que pueden ser útiles, y describe diferentes consideraciones relacionadas con la programación de acuerdo a diferentes niveles de seguridad.
+							</p>
+
+						</div>
+
+						<div id="tab-2" class="tab-content ">
+							<h4>Consideraciones Generales</h4>
+
+							<p align="justify">
+								Un sistema completamente seguro es prácticamente un imposible, de modo que el enfoque usado con mayor frecuencia en la profesión de seguridad es uno que busque el balance adecuado entre riesgo y funcionalidad. Si cada variable enviada por un usuario requiriera de dos formas de validación biométrica (como rastreo de retinas y análisis dactilar), usted contaría con un nivel extremadamente alto de confiabilidad. También implicaría que llenar los datos de un formulario razonablemente complejo podría tomar media hora, cosa que podría incentivar a los usuarios a buscar métodos para esquivar los mecanismos de seguridad.
+
+								<p align="justify">
+									La mejor seguridad con frecuencia es lo suficientemente razonable como para suplir los requerimientos dados sin prevenir que el usuario realice su labor de forma natural, y sin sobrecargar al autor del código con una complejidad excesiva. De hecho, algunos ataques de seguridad son simples recursos que aprovechan las vulnerabilidades de este tipo de seguridad sobrecargada, que tiende a erosionarse con el tiempo.
+								</p>
+
+								<p align="justify">
+									Una frase que vale la pena recordar: Un sistema es apenas tan bueno como el eslabón más débil de una cadena. Si todas las transacciones son registradas copiosamente basándose en la fecha/hora, ubicación, tipo de transacción, etc. pero la verificación del usuario se realiza únicamente mediante una cookie sencilla, la validez de atar a los usuarios al registro de transacciones es mermada severamente.
+								</p>
+
+								<p align="justify">
+									Cuando realice pruebas, tenga en mente que no será capaz de probar todas las diferentes posibilidades, incluso para las páginas más simples. Los datos de entrada que usted puede esperar en sus aplicaciones no necesariamente tendrán relación alguna con el tipo de información que podría ingresar un empleado disgustado, un cracker con meses de tiempo entre sus manos, o un gato doméstico caminando sobre el teclado. Es por esto que es mejor observar el código desde una perspectiva lógica, para determinar en dónde podrían introducirse datos inesperados, y luego hacer un seguimiento de cómo esta información es modificada, reducida o amplificada.
+								</p>
+
+								<p align="justify">
+									Internet está repleto de personas que tratan de crearse fama al romper la seguridad de su código, bloquear su sitio, publicar contenido inapropiado, y por lo demás haciendo que sus días sean más interesantes. No importa si usted administra un sitio pequeño o grande, usted es un objetivo por el simple hecho de estar en línea, por tener un servidor al cual es posible conectarse. Muchas aplicaciones de cracking no hacen distinciones por tamaños, simplemente recorren bloques masivos de direcciones IP en busca de víctimas. Trate de no convertirse en una.
+								</p>
+							</p>
+						</div>
+
+						<div id="tab-3" class="tab-content ">
+							
+						</div>
+
+						<div id="tab-4" class="tab-content ">
+							<h4>Bibliografia</h4>
+
+							<p align="justify">
+								<ol>
+									<li>Php.net. (2017). PHP: Introducción - Manual. [online] Available at: http://php.net/manual/es/security.intro.php [Accessed 3 Nov. 2017].</li>
+								</ol>
+							</p>
+
+						</div>
+
+
+					</div><!-- container -->
+
+				</div>
+			</section>
+
+		</div>
+
+		<!-- @import "html-footer.kit" -->
+
+	</body> 
+
+</html>
