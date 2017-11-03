@@ -13,6 +13,6 @@
 * 5. **AUTORES:** ser· una (1) página web en la cual el grupo publicar· la información relacionada con los Autores del OVI, para esto se debe organizar un bloque por cada estudiante que participo en la actividad donde se publique: Nombre, Código, Programa, Correo Electrónico, Usuario Skype, y Fotografía reciente y real de cada estudiante.
 
 
-## Recursos
+## Recursos del aplicativo
 
 * [UNAD](https://sig.unad.edu.co/documentos/sgc/documentos_referencia/manual_identidad/Manual_Identidad_Institucional.pdf) - Manual de Identidad
